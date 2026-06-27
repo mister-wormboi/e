@@ -1,0 +1,44 @@
+1. Обновление списка пакетов
+sudo apt update
+
+2. Обновление установленных пакетов
+sudo apt upgrade -y
+
+3. Установка необходимого программного обеспечения
+sudo apt install -y openssh-server libreoffice gimp 7zip hardinfo clamav clamtk printer-driver-cups-pdf
+
+4. Включение службы SSH
+sudo systemctl enable ssh
+
+5. Запуск службы SSH
+sudo systemctl start ssh
+
+6. Включение брандмауэра UFW
+sudo ufw enable
+
+7. Разрешение подключения по SSH
+sudo ufw allow OpenSSH
+
+8. Создание группы пользователей
+sudo addgroup admins
+
+9. Создание пользователя
+sudo useradd -m student
+
+10. Назначение пароля пользователю
+sudo passwd student
+
+11. Создание папки для резервной копии
+sudo mkdir -p /backup
+
+12. Создание резервной копии каталога /etc
+sudo tar -czf /backup/system_backup.tar.gz /etc
+
+13. Проверка состояния службы SSH
+sudo systemctl status ssh
+
+14. Проверка IP-адреса компьютера
+ip a
+
+15. Проверка подключения к Интернету
+ping -c 4 8.8.8.8
