@@ -105,5 +105,85 @@ ping -c 4 8.8.8.8
 Обоснование: проверяет, есть ли доступ в интернет.
 
 
+(-_-)
+
+
+1. Visual Studio Code
+sudo snap install code --classic
+
+2. IntelliJ IDEA Community
+sudo snap install intellij-idea-community --classic
+
+3. Android Studio
+sudo snap install android-studio --classic
+
+4. Unity Hub
+sudo snap install unityhub
+
+5. Blender
+sudo snap install blender --classic
+
+6. Docker
+sudo apt install -y docker.io
+sudo systemctl enable docker
+sudo systemctl start docker
+
+7. PostgreSQL
+sudo apt install -y postgresql postgresql-contrib
+
+8. Node.js и npm
+sudo apt install -y nodejs npm
+
+9. Java (JDK)
+sudo apt install -y default-jdk
+
+10. Python и pip
+sudo apt install -y python3 python3-pip python3-venv
+
+11. JupyterLab
+pip3 install jupyterlab
+
+12. TensorFlow
+pip3 install tensorflow
+
+13. OpenCV
+pip3 install opencv-python
+
+14. Grafana
+sudo apt install -y grafana
+
+15. Git
+sudo apt install -y git
+
+16. Audacity
+sudo apt install -y audacity
+
+17. QGIS
+sudo apt install -y qgis
+
+18. OpenSCADA
+sudo apt install -y openscada
+
+19. Ansible
+sudo apt install -y ansible
+
+20. Selenium
+pip3 install selenium
+
+21. Cypress
+npm install -g cypress
+
+22. Flutter
+sudo snap install flutter --classic
+
+23. Dart SDK
+sudo snap install dart --classic
+
+24. PlatformIO
+pip3 install platformio
+
+25. MQTT Explorer
+sudo snap install mqtt-explorer
+
 
 
